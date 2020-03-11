@@ -1,32 +1,26 @@
 function theBeatlesPlay(musicians,instruments) {
-  var x = [];
+  var x = []
   for (var i = 0; i < musicians.length; i++) {
     x.push(musicians[i] + ' plays ' + instruments[i])
   }
   return x;
 }
 
-function johnLennonFacts (){
-  var facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-  var newFacts=[];
-  var i=0;
-  while(i<facts.length){
-      newFacts.push(facts[i]+"!!!")
-      i++;
+function johnLennonFacts(array) {
+  var i = 0
+  while (i < array.length) {
+    array[i] += '!!!';
+    i++;
   }
-  return newFacts;
+  return array;
 }
-function iLoveTheBeatles(number){
+
+function iLoveTheBeatles(number) {
   var arr = [];
-  var i =0;
-  do{
-    arr.pushi("I love the Beatles");
-    number++;
-  } while(number < 15);
-  return arr
+  var i = 0;
+  do {
+    arr.push('I love the Beatles!');
+    i++;
+  } while (i <= number && number < 15);
+  return arr;
 }

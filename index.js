@@ -20,7 +20,7 @@ function johnLennonFacts (facts){
     var newFacts=[];
     var i=0;
     while(i<facts.length){
-      facts[i]+"!!!";
+      newFacts.phsh{facts[i]+"!!!";
   }
   
 }

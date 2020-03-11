@@ -1,4 +1,4 @@
-const musicians =[]
+const musicians =["John Lennon"]
 const instruments = [""]
 function theBeatlesPlay(musicians,instruments){
   var array = [];
